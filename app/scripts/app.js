@@ -15,6 +15,10 @@ angular.module('angdirectiveApp', [])
         templateUrl: 'views/six.html',
         controller: 'MainCtrl'
       })
+      .when('/seven', {
+        templateUrl: 'views/seven.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
